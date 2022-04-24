@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/zlib/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckCSourceCompiles.cmake
+G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/zlib/zlib.pc.cmakein
+G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/zlib/zconf.h.cmakein

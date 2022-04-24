@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="ALL_BUILD"
+	ProjectGUID="{D8497EDA-B0A6-34AB-85C9-17289710CAEA}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			IntermediateDirectory="ALL_BUILD.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				AssemblerListingLocation="Debug/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			IntermediateDirectory="ALL_BUILD.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				AssemblerListingLocation="Release/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			IntermediateDirectory="ALL_BUILD.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				AssemblerListingLocation="MinSizeRel/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			IntermediateDirectory="ALL_BUILD.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\include;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/libfreetype/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HG:/cnc/solvespace/solvespace-2.3_vs2005 -BG:/cnc/solvespace/solvespace-2.3_vs2005/Proj --check-stamp-file G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPNG.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\builds\cmake\FindHarfBuzz.cmake;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;"
+					Outputs="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/libfreetype/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HG:/cnc/solvespace/solvespace-2.3_vs2005 -BG:/cnc/solvespace/solvespace-2.3_vs2005/Proj --check-stamp-file G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPNG.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\builds\cmake\FindHarfBuzz.cmake;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;"
+					Outputs="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/libfreetype/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HG:/cnc/solvespace/solvespace-2.3_vs2005 -BG:/cnc/solvespace/solvespace-2.3_vs2005/Proj --check-stamp-file G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPNG.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\builds\cmake\FindHarfBuzz.cmake;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;"
+					Outputs="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule G:/cnc/solvespace/solvespace-2.3_vs2005/extlib/libfreetype/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HG:/cnc/solvespace/solvespace-2.3_vs2005 -BG:/cnc/solvespace/solvespace-2.3_vs2005/Proj --check-stamp-file G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPNG.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindZLIB.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\builds\cmake\FindHarfBuzz.cmake;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPkgConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in&quot;;G:\cnc\solvespace\solvespace-2.3_vs2005\extlib\libfreetype\CMakeLists.txt;"
+					Outputs="G:\cnc\solvespace\solvespace-2.3_vs2005\Proj\extlib\libfreetype\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
